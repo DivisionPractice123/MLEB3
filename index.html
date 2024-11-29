@@ -1,23 +1,17 @@
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Open about:blank</title>
-</head>
-<body>
-
-    <button onclick="openBlank()">Open about:blank</button>
-
     <script>
-        function openBlank() {
-            window.open('about:blank', '_blank');
+        function replaceWithBlank() {
+            window.location.replace("about:blank");
         }
     </script>
-
-</body>
-
-<head>
 </head>
+<body>
+    <button onclick="replaceWithBlank()">Clear Page</button>
+</body>
 <body bgcolor="black">
 </body>
 <head>
